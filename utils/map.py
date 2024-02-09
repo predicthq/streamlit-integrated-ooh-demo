@@ -79,7 +79,7 @@ def show_map(lat, lon, radius_meters, events):
                             "coordinates": [lon, lat],
                             "radius": radius_meters,
                             "icon_data": {
-                                "url": "app/static/restaurant-icon.png",
+                                "url": "app/static/placard-icon.png",
                                 "width": 160,
                                 "height": 160,
                             },

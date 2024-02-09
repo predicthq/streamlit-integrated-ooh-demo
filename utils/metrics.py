@@ -124,7 +124,8 @@ def show_metrics():
         )
         previous_demand_surges_count = len(previous_demand_surges)
 
-        st.divider()
+        st.markdown("""---""")
+
 
         col1, col2, col3, col4, col5, col6 = st.columns(6)
 
